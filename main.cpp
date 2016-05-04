@@ -13,13 +13,13 @@
 vector<vert> vertices, normals;
 vector<GLfloat> T_s, T_t;
 vector<GLuint> faces;
-const char* fname = "/Users/pujandave/cs418/MP3/TeaPot/TeaPot/teapot_0.obj";
+const char* fname = "PATH_TO_OBJ_FILE";
 
 /* Need to Provide correct path */
 // Image for texture
-const char* tex_img1 = "/Users/pujandave/cs418/MP3/TeaPot/TeaPot/flower.ppm";
+const char* tex_img1 = "PATH_TO_TEXTURE_IMAGE";
 // Image for Environment
-const char* tex_img2 = "/Users/pujandave/cs418/MP3/TeaPot/TeaPot/stpeters.ppm";
+const char* tex_img2 = "PATH_TO_ENVIRONMENT_IMAGE";
 
 int nFPS = 30;
 clock_t startClock=0,curClock;
